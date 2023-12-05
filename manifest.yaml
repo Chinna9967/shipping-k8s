@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: shipping
-        image: chinna9967/shipping:1.0.0
+        image: 127147268179.dkr.ecr.us-east-1.amazonaws.com/shipping:1.0
         envFrom:
           - configMapRef:
               name: shipping
